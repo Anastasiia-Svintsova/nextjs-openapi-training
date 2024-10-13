@@ -4,5 +4,10 @@
   "parserOptions": {
     "ecmaVersion": 2021,
     "sourceType": "module"
+  },
+  "rules": {
+    "prettier/prettier": "warn",
+    "no-console": "warn",
+    "react/no-array-index-key": "error"
   }
 }
