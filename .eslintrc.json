@@ -1,13 +1,12 @@
 {
   "extends": ["next/core-web-vitals", "next/typescript"],
-  "plugins": ["react"],
+  "plugins": ["react", "prettier", "@typescript-eslint"],
   "parserOptions": {
     "ecmaVersion": 2021,
     "sourceType": "module"
   },
   "rules": {
-    "prettier/prettier": "warn",
-    "no-console": "warn",
-    "react/no-array-index-key": "error"
+    "prettier/prettier": 1,
+    "no-console": 1
   }
 }
