@@ -1,4 +1,4 @@
-import { Drink } from '@/shared';
+import { Drink } from '@/src/shared';
 import Link from 'next/link';
 import { FC } from 'react';
 import Image from 'next/image';

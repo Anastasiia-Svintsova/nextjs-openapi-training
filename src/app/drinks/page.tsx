@@ -1,6 +1,6 @@
-import DrinksList from '@/components/DrinksList';
+import DrinksList from '@/src/components/DrinksList';
 import { drinksUrl } from '../constants';
-import { Drink } from '@/shared';
+import { Drink } from '@/src/shared';
 
 const fetchDrinks = async (): Promise<{ drinks: Drink[] }> => {
   const response = await fetch(drinksUrl);
