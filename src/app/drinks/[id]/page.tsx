@@ -1,5 +1,5 @@
-import { singleDrinkUrl } from '@/app/constants';
-import { Drink } from '@/shared';
+import { singleDrinkUrl } from '@/src/app/constants';
+import { Drink } from '@/src/shared';
 import Image from 'next/image';
 import Link from 'next/link';
 
